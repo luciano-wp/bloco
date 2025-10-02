@@ -9,25 +9,53 @@ div{
     background-color: red;
 }
 #bloco2{
-    background-image: url(/imagens/urubu.jpg);
+    background-image: url(/imagens/Animes-Shonen-1.jpg);
+    background-repeat: repeat;
 }
 #bloco3{
-    background-image: url(/imagens/urubu.jpg);
+    background-image: url(/imagens/Animes-Shonen-1.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
 #bloco4{
-    background-image: url(/imagens/urubu.jpg);
+    background-image: url(/imagens/Animes-Shonen-1.jpg);
     background-size: cover;
 }
 #bloco5{
     background-attachment: fixed; 
+    background-image: url(/imagens/Animes-Shonen-1.jpg);
+    background-size: cover;
 }
 #bloco6{
-    background-image: url(/imagens/urubu.jpg);
-    background-repeat: no-repeat;   
+    background-image: url(/imagens/Animes-Shonen-1.jpg);
+    background-repeat: no-repeat;
+    background-origin: padding-box;
 }
 #bloco7{
-    background-image: url(/imagens/urubu.jpg);
+    background-image: url(/imagens/Animes-Shonen-1.jpg);
     background-repeat: no-repeat;
+    background-origin: border-box;
+}
+#bloco8{
+    background-image: url(/imagens/Animes-Shonen-1.jpg);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+#bloco9{
+    background-image: url(/imagens/Animes-Shonen-1.jpg);
+    background-repeat: no-repeat;
+    background-clip: padding-box;
+}
+#bloco10{
+    background-image: url(/imagens/Animes-Shonen-1.jpg);
+    background-repeat: no-repeat;
+    background-clip: border-box;
+}
+#bloco11{
+    background-image: url(/imagens/Animes-Shonen-1.jpg);
+    background-repeat: no-repeat;
+    background-clip: content-box;
+}
+#bloco12{
+    background: url(/imagens/Animes-Shonen-1.jpg) repeat padding-box fixed;
 }
